@@ -1,0 +1,16 @@
+.order-total{
+    color: rgb(187, 7, 7);
+    font : bold
+}
+button :hover{
+    background-color: gray;
+}
+
+button {
+    background-color: goldenrod;
+    width: 170px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+}

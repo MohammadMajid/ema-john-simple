@@ -8,11 +8,12 @@
     background-color: black;
     line-height: 40px;
     font-size: 20px;
+    width: 100%;
 }
 nav a{
     text-decoration: none;
     color: white;
-    margin-right: 20px;
+    margin-right: 2px;
     padding: 5px;
 }
 nav a:hover{

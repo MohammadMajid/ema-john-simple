@@ -8,10 +8,11 @@ import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 
 function App() {
@@ -40,8 +41,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      
-      
     </div>
   );
 }

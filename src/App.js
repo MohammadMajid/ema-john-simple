@@ -11,8 +11,7 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link,
-  HashRouter
+  Link
 } from "react-router-dom";
 
 function App() {
@@ -21,13 +20,13 @@ function App() {
       <Header></Header>
       <Router>
         <Switch>
-        <Route path="/shop">
+        <Route exact path="/shop">
         <Shop></Shop>
           </Route>
-          <Route path="/review">
+          <Route exact path="/review">
             <Review></Review>
           </Route>
-          <Route path="/inventory">
+          <Route exact path="/inventory">
             <Inventory></Inventory>
           </Route>
           <Route exact path="/">
@@ -36,7 +35,7 @@ function App() {
           <Route exact path="/product/:productKey">
           <ProductDetail></ProductDetail>
           </Route>
-          <Route path="*">
+          <Route exact path="*">
           <NotFound></NotFound>
           </Route>
         </Switch>

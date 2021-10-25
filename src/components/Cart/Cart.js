@@ -2,6 +2,7 @@ import React from 'react';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -34,7 +35,9 @@ const Cart = (props) => {
             <p><small>Shipping Cost: {shipping}</small></p>
             <p><small>Estimated tax: {formatNumber(tax)}</small></p>
             <p className='order-total'>Order Total : <FontAwesomeIcon icon={faDollarSign} />{formatNumber(totalPrice + shipping + tax)}</p>
-            <button>Review your order</button>
+            <Link to='/review'>
+               <button className='main-button'>Review order</button>
+            </Link>
         </div>
     );
 };

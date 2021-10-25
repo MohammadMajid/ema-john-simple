@@ -8,7 +8,7 @@ import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 
 import {
-  HashRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -17,8 +17,9 @@ import {
 function App() {
   return (
     <div>
+      <HashRouter basename='/'>
       <Header></Header>
-      <Router>
+      <Route>
         <Switch>
         <Route exact path="/shop">
         <Shop></Shop>
@@ -35,11 +36,12 @@ function App() {
           <Route exact path="/product/:productKey">
           <ProductDetail></ProductDetail>
           </Route>
-          <Route exact path="*">
+          <Route path="*">
           <NotFound></NotFound>
           </Route>
         </Switch>
-      </Router>
+      </Route>
+      </HashRouter>
     </div>
   );
 }

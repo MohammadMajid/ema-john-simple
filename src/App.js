@@ -7,13 +7,14 @@ import Inventory from './components/Inventory/Inventory';
 import NotFound from './components/NotFound/NotFound';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import {HashRouter as Router,Switch,Route} from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      
       <Router>
+      <Header></Header>
         <Switch>
         <Route exact path="/shop">
         <Shop></Shop>

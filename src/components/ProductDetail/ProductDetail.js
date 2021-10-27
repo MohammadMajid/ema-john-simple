@@ -11,8 +11,8 @@ const ProductDetail = () => {
     console.log(product);
     return (
         <div>
-            <h1>{productKey} Product Details Coming Soon</h1>
-            <Product product={product}></Product>
+            <h1>{productKey} Product Details Comi ng Soon</h1>
+            <Product showAddToCart={false} product={product}></Product>
         </div>
     );
 };

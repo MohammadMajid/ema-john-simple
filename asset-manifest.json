@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ema-john-simple/static/css/main.580ecd93.chunk.css",
+    "main.css": "/ema-john-simple/static/css/main.8b7dfe94.chunk.css",
     "main.js": "/ema-john-simple/static/js/main.a81a13da.chunk.js",
     "main.js.map": "/ema-john-simple/static/js/main.a81a13da.chunk.js.map",
     "runtime-main.js": "/ema-john-simple/static/js/runtime-main.ae629d95.js",
@@ -10,14 +10,14 @@
     "static/js/3.ddb499ec.chunk.js": "/ema-john-simple/static/js/3.ddb499ec.chunk.js",
     "static/js/3.ddb499ec.chunk.js.map": "/ema-john-simple/static/js/3.ddb499ec.chunk.js.map",
     "index.html": "/ema-john-simple/index.html",
-    "static/css/main.580ecd93.chunk.css.map": "/ema-john-simple/static/css/main.580ecd93.chunk.css.map",
+    "static/css/main.8b7dfe94.chunk.css.map": "/ema-john-simple/static/css/main.8b7dfe94.chunk.css.map",
     "static/js/2.4d1e3289.chunk.js.LICENSE.txt": "/ema-john-simple/static/js/2.4d1e3289.chunk.js.LICENSE.txt",
     "static/media/logo.0dd9a510.png": "/ema-john-simple/static/media/logo.0dd9a510.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae629d95.js",
     "static/js/2.4d1e3289.chunk.js",
-    "static/css/main.580ecd93.chunk.css",
+    "static/css/main.8b7dfe94.chunk.css",
     "static/js/main.a81a13da.chunk.js"
   ]
 }

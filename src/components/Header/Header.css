@@ -20,3 +20,11 @@ nav a:hover{
     align-items: center;
     background-color: gray;
 }
+@media only screen and (max-width: 720px){
+    .header nav{
+        background-color: black;
+        line-height: 35px;
+        font-size: 18px;
+        width: 150%;
+    }
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 720px){
+    .twin-container{
+        display: flex;
+    }
+    .product-container{
+        width: 110%;
+        margin-left: 10px;
+        border-right: 1px solid lightgray;
+    }
+}
+
+
+

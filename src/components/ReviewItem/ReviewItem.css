@@ -1,0 +1,11 @@
+.review{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 720px){
+    .review {
+        width: 100%;
+        margin-right: 2px;
+    }
+}
